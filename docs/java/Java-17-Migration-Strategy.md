@@ -6,7 +6,7 @@
 |-------|--------|-----|-------|
 | Phase 0: Preparation | COMPLETED | N/A | CI/CD updated to Java 17 |
 | Phase 1: Foundation Layer | COMPLETED | [PR #4](https://github.com/Samir-Chaudhry-Enterprise/legend-engine/pull/4) | Migrated leaf modules |
-| Phase 2: Core Shared Layer | IN PROGRESS | TBD | Migrating core shared modules |
+| Phase 2: Core Shared Layer | IN PROGRESS | [PR #6](https://github.com/Samir-Chaudhry-Enterprise/legend-engine/pull/6) | Migrating core shared modules |
 | Phase 3: Language & Compilation | PENDING | - | - |
 | Phase 4: Execution Layer | PENDING | - | - |
 | Phase 5: Pure Runtime | PENDING | - | - |
