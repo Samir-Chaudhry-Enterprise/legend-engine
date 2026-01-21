@@ -27,6 +27,12 @@
     <packaging>pom</packaging>
     <name>Legend Engine - Core - Shared - Vault</name>
 
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.release>17</maven.compiler.release>
+    </properties>
+
     <modules>
         <module>legend-engine-shared-vault-core</module>
         <module>legend-engine-shared-vault-aws</module>
