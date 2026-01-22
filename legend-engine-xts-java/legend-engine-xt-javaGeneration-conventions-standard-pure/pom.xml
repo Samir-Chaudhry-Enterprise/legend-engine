@@ -42,6 +42,7 @@
                             </ignoredUnusedDeclaredDependencies>
                             <ignoredNonTestScopedDependencies>
                                 <ignoredNonTestScopedDependency>org.finos.legend.pure:legend-pure-m4</ignoredNonTestScopedDependency>
+                                <ignoredNonTestScopedDependency>junit:junit</ignoredNonTestScopedDependency>
                             </ignoredNonTestScopedDependencies>
                         </configuration>
                     </execution>
