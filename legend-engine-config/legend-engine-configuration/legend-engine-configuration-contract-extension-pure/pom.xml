@@ -39,6 +39,9 @@
                                 <dependency>org.finos.legend.engine:legend-engine-xt-serviceStore-pure</dependency>
                                 <dependency>org.finos.legend.engine:legend-engine-language-pure-dsl-service-pure</dependency>
                             </ignoredUnusedDeclaredDependencies>
+                            <ignoredNonTestScopedDependencies>
+                                <ignoredNonTestScopedDependency>junit:junit</ignoredNonTestScopedDependency>
+                            </ignoredNonTestScopedDependencies>
                         </configuration>
                     </execution>
                 </executions>

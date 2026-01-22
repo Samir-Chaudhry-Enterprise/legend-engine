@@ -44,6 +44,12 @@
                             <ignoredUsedUndeclaredDependencies>
                                 <dependency>org.finos.legend.engine:legend-engine-xt-sql-pure</dependency>
                             </ignoredUsedUndeclaredDependencies>
+                            <ignoredNonTestScopedDependencies>
+                                <ignoredNonTestScopedDependency>junit:junit</ignoredNonTestScopedDependency>
+                            
+                        <ignoredNonTestScopedDependency>com.fasterxml.jackson.core:jackson-core</ignoredNonTestScopedDependency>
+                        <ignoredNonTestScopedDependency>com.fasterxml.jackson.core:jackson-databind</ignoredNonTestScopedDependency>
+                    </ignoredNonTestScopedDependencies>
                         </configuration>
                     </execution>
                 </executions>

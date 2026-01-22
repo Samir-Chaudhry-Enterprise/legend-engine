@@ -39,6 +39,9 @@
                                 <dependency>org.finos.legend.engine:legend-engine-pure-runtime-java-extension-compiled-functions-unclassified</dependency>
                                 <dependency>org.finos.legend.engine:legend-engine-xt-authentication-pure</dependency>
                             </ignoredUnusedDeclaredDependencies>
+                            <ignoredNonTestScopedDependencies>
+                                <ignoredNonTestScopedDependency>junit:junit</ignoredNonTestScopedDependency>
+                            </ignoredNonTestScopedDependencies>
                         </configuration>
                     </execution>
                 </executions>

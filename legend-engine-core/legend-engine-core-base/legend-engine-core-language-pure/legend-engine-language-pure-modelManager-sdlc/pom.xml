@@ -37,7 +37,13 @@
                         <ignoredUnusedDeclaredDependencies>
                             <dependency>org.mongodb:mongodb-driver-sync:jar</dependency>
                         </ignoredUnusedDeclaredDependencies>
-                    </configuration>
+                            <ignoredNonTestScopedDependencies>
+                                <ignoredNonTestScopedDependency>junit:junit</ignoredNonTestScopedDependency>
+                            
+                        <ignoredNonTestScopedDependency>com.fasterxml.jackson.core:jackson-core</ignoredNonTestScopedDependency>
+                        <ignoredNonTestScopedDependency>com.fasterxml.jackson.core:jackson-databind</ignoredNonTestScopedDependency>
+                    </ignoredNonTestScopedDependencies>
+                        </configuration>
                 </execution>
             </executions>
         </plugin>

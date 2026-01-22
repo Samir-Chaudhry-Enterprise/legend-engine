@@ -41,6 +41,11 @@
                                 <dependency>org.finos.legend.engine:legend-engine-pure-functions-legendCompiler-pure</dependency>
                                 <dependency>org.finos.legend.engine:legend-engine-pure-functions-planExecution-pure</dependency>
                             </ignoredUnusedDeclaredDependencies>
+                            <ignoredNonTestScopedDependencies>
+                                <ignoredNonTestScopedDependency>junit:junit</ignoredNonTestScopedDependency>
+                            
+                        <ignoredNonTestScopedDependency>com.fasterxml.jackson.core:jackson-databind</ignoredNonTestScopedDependency>
+                    </ignoredNonTestScopedDependencies>
                         </configuration>
                     </execution>
                 </executions>

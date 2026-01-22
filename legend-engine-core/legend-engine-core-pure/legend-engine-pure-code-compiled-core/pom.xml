@@ -53,6 +53,10 @@
                                 <dependency>org.finos.legend.engine:legend-engine-pure-functions-unclassified-pure</dependency>
                                 <dependency>org.finos.legend.engine:legend-engine-pure-platform-dsl-path-java</dependency>
                             </ignoredUnusedDeclaredDependencies>
+                            <ignoredNonTestScopedDependencies>
+                                <ignoredNonTestScopedDependency>org.finos.legend.pure:legend-pure-m4</ignoredNonTestScopedDependency>
+                                <ignoredNonTestScopedDependency>junit:junit</ignoredNonTestScopedDependency>
+                            </ignoredNonTestScopedDependencies>
                         </configuration>
                     </execution>
                 </executions>

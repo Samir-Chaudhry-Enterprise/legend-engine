@@ -49,6 +49,10 @@
                             <goal>analyze-only</goal>
                         </goals>
                         <configuration>
+                    <ignoredNonTestScopedDependencies>
+                        <ignoredNonTestScopedDependency>com.fasterxml.jackson.core:jackson-core</ignoredNonTestScopedDependency>
+                        <ignoredNonTestScopedDependency>com.fasterxml.jackson.core:jackson-databind</ignoredNonTestScopedDependency>
+                    </ignoredNonTestScopedDependencies>
                             <ignoredUnusedDeclaredDependencies>
                                 <ignoredUnusedDeclaredDependency>org.finos.legend.engine:legend-engine-pure-platform-dsl-store-java</ignoredUnusedDeclaredDependency>
                             </ignoredUnusedDeclaredDependencies>

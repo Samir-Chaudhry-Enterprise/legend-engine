@@ -25,6 +25,9 @@
                                 <dependency>org.finos.legend.pure:legend-pure-m2-dsl-mapping-grammar</dependency>
                                 <dependency>org.finos.legend.engine:legend-engine-pure-functions-legendCompiler-pure</dependency>
                             </ignoredUnusedDeclaredDependencies>
+                            <ignoredNonTestScopedDependencies>
+                                <ignoredNonTestScopedDependency>junit:junit</ignoredNonTestScopedDependency>
+                            </ignoredNonTestScopedDependencies>
                         </configuration>
                     </execution>
                 </executions>

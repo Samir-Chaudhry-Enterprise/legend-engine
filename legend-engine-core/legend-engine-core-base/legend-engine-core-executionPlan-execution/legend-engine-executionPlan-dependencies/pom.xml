@@ -25,6 +25,20 @@
     <artifactId>legend-engine-executionPlan-dependencies</artifactId>
     <name>Legend Engine - Execution Plan - Dependencies</name>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <configuration>
+                    <ignoredNonTestScopedDependencies>
+                        <ignoredNonTestScopedDependency>com.fasterxml.jackson.core:jackson-core</ignoredNonTestScopedDependency>
+                    </ignoredNonTestScopedDependencies>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
     <dependencies>
         <!-- PURE -->
         <!-- we should remove this dependency, right now, it's just required for `PureDate` -->

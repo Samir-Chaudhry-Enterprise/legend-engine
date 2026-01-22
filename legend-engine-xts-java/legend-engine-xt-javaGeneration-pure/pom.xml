@@ -42,6 +42,10 @@
                                 <dependency>org.finos.legend.pure:legend-pure-m2-dsl-graph-pure</dependency>
                                 <dependency>org.finos.legend.engine:legend-engine-pure-functions-json-pure</dependency>
                             </ignoredUnusedDeclaredDependencies>
+                            <ignoredNonTestScopedDependencies>
+                                <ignoredNonTestScopedDependency>org.finos.legend.pure:legend-pure-m4</ignoredNonTestScopedDependency>
+                                <ignoredNonTestScopedDependency>junit:junit</ignoredNonTestScopedDependency>
+                            </ignoredNonTestScopedDependencies>
                         </configuration>
                     </execution>
                 </executions>

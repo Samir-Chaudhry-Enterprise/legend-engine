@@ -41,6 +41,9 @@
                                 <dependency>org.finos.legend.pure:legend-pure-m2-dsl-mapping-pure</dependency>
                                 <dependency>org.finos.legend.engine:legend-engine-xt-relationalStore-core-pure</dependency>
                             </ignoredUnusedDeclaredDependencies>
+                            <ignoredNonTestScopedDependencies>
+                                <ignoredNonTestScopedDependency>junit:junit</ignoredNonTestScopedDependency>
+                            </ignoredNonTestScopedDependencies>
                         </configuration>
                     </execution>
                 </executions>

@@ -41,6 +41,9 @@
                                 <dependency>org.finos.legend.engine:legend-engine-xt-authentication-pure</dependency>
                                 <dependency>org.finos.legend.engine:legend-engine-pure-platform-dsl-mapping-java</dependency>
                             </ignoredUnusedDeclaredDependencies>
+                            <ignoredNonTestScopedDependencies>
+                                <ignoredNonTestScopedDependency>junit:junit</ignoredNonTestScopedDependency>
+                            </ignoredNonTestScopedDependencies>
                         </configuration>
                     </execution>
                 </executions>
