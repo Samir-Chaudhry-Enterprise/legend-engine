@@ -143,6 +143,7 @@
                         <configuration>
                             <ignoredNonTestScopedDependencies>
                                 <ignoredNonTestScopedDependency>org.finos.legend.pure:legend-pure-m4</ignoredNonTestScopedDependency>
+                                <ignoredNonTestScopedDependency>org.finos.legend.engine:legend-engine-pure-functions-standard-pure</ignoredNonTestScopedDependency>
                             </ignoredNonTestScopedDependencies>
                         </configuration>
                     </execution>
@@ -210,6 +211,10 @@
         <dependency>
             <groupId>org.finos.legend.engine</groupId>
             <artifactId>legend-engine-pure-runtime-java-extension-compiled-functions-variant</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.finos.legend.engine</groupId>
+            <artifactId>legend-engine-pure-runtime-java-extension-shared-functions-variant</artifactId>
         </dependency>
 
         <dependency>
