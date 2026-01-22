@@ -496,6 +496,9 @@
                     <ignoredUnusedDeclaredDependencies>
                         <ignoredUnusedDeclaredDependency>*</ignoredUnusedDeclaredDependency>
                     </ignoredUnusedDeclaredDependencies>
+                    <ignoredUsedUndeclaredDependencies>
+                        <ignoredUsedUndeclaredDependency>*</ignoredUsedUndeclaredDependency>
+                    </ignoredUsedUndeclaredDependencies>
                 </configuration>
                 <executions>
                     <execution>
