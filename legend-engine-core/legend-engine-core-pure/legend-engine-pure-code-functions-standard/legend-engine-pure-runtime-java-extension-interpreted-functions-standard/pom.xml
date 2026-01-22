@@ -41,6 +41,9 @@
                                 <dependency>org.finos.legend.engine:legend-engine-pure-functions-relation-pure</dependency>
                                 <dependency>org.finos.legend.engine:legend-engine-pure-runtime-java-extension-shared-functions-relation</dependency>
                             </ignoredUnusedDeclaredDependencies>
+                            <ignoredNonTestScopedDependencies>
+                                <ignoredNonTestScopedDependency>junit:junit</ignoredNonTestScopedDependency>
+                            </ignoredNonTestScopedDependencies>
                         </configuration>
                     </execution>
                 </executions>

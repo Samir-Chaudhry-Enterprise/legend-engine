@@ -37,7 +37,10 @@
                         <ignoredUnusedDeclaredDependencies>
                             <dependency>org.mongodb:mongodb-driver-sync:jar</dependency>
                         </ignoredUnusedDeclaredDependencies>
-                    </configuration>
+                            <ignoredNonTestScopedDependencies>
+                                <ignoredNonTestScopedDependency>junit:junit</ignoredNonTestScopedDependency>
+                            </ignoredNonTestScopedDependencies>
+                        </configuration>
                 </execution>
             </executions>
         </plugin>

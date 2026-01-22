@@ -548,6 +548,9 @@
                                     </includes>
                                 </bannedDependencies>
                             </rules>
+                            <ignoredNonTestScopedDependencies>
+                                <ignoredNonTestScopedDependency>junit:junit</ignoredNonTestScopedDependency>
+                            </ignoredNonTestScopedDependencies>
                         </configuration>
                     </execution>
                     <execution>

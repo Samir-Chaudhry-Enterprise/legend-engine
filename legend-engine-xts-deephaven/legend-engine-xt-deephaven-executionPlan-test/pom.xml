@@ -46,6 +46,9 @@
                                 <dependency>org.finos.legend.engine:legend-engine-pure-functions-planExecution-pure</dependency>
                                 <dependency>org.finos.legend.engine:legend-engine-pure-functions-standard-pure</dependency>
                             </ignoredUnusedDeclaredDependencies>
+                            <ignoredNonTestScopedDependencies>
+                                <ignoredNonTestScopedDependency>junit:junit</ignoredNonTestScopedDependency>
+                            </ignoredNonTestScopedDependencies>
                         </configuration>
                     </execution>
                 </executions>

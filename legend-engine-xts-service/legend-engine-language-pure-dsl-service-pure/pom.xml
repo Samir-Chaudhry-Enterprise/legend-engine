@@ -138,6 +138,9 @@
                                 <dependency> org.finos.legend.engine:legend-engine-xt-data-space-pure-metamodel:jar</dependency>
                                 <dependency> org.finos.legend.engine:legend-engine-xt-json-pure:jar</dependency>
                             </ignoredUnusedDeclaredDependencies>
+                            <ignoredNonTestScopedDependencies>
+                                <ignoredNonTestScopedDependency>junit:junit</ignoredNonTestScopedDependency>
+                            </ignoredNonTestScopedDependencies>
                         </configuration>
                     </execution>
                 </executions>

@@ -34,6 +34,9 @@
                                 <dependency>org.finos.legend.pure:legend-pure-m3-precisePrimitives</dependency>
                                 <dependency>org.finos.legend.engine:legend-engine-pure-platform-precisePrimitives-java</dependency>
                             </ignoredUnusedDeclaredDependencies>
+                            <ignoredNonTestScopedDependencies>
+                                <ignoredNonTestScopedDependency>junit:junit</ignoredNonTestScopedDependency>
+                            </ignoredNonTestScopedDependencies>
                         </configuration>
                     </execution>
                 </executions>

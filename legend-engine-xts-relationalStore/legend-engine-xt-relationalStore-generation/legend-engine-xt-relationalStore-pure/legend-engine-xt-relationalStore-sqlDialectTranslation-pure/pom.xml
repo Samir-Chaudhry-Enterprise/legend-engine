@@ -140,6 +140,9 @@
                             <ignoredUsedUndeclaredDependencies>
                                 <dependency>org.finos.legend.engine:legend-engine-pure-platform-store-relational-java</dependency>
                             </ignoredUsedUndeclaredDependencies>
+                            <ignoredNonTestScopedDependencies>
+                                <ignoredNonTestScopedDependency>junit:junit</ignoredNonTestScopedDependency>
+                            </ignoredNonTestScopedDependencies>
                         </configuration>
                     </execution>
                 </executions>
