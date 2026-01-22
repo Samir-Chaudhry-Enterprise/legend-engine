@@ -42,7 +42,10 @@
                         <configuration>
                             <ignoredNonTestScopedDependencies>
                                 <ignoredNonTestScopedDependency>junit:junit</ignoredNonTestScopedDependency>
-                            </ignoredNonTestScopedDependencies>
+                            
+                        <ignoredNonTestScopedDependency>com.fasterxml.jackson.core:jackson-core</ignoredNonTestScopedDependency>
+                        <ignoredNonTestScopedDependency>com.fasterxml.jackson.core:jackson-databind</ignoredNonTestScopedDependency>
+                    </ignoredNonTestScopedDependencies>
                         </configuration>
                     </execution>
                 </executions>

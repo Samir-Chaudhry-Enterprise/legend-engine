@@ -24,6 +24,9 @@
                             <goal>unpack</goal>
                         </goals>
                         <configuration>
+                    <ignoredNonTestScopedDependencies>
+                        <ignoredNonTestScopedDependency>com.fasterxml.jackson.core:jackson-core</ignoredNonTestScopedDependency>
+                    </ignoredNonTestScopedDependencies>
                             <artifactItems>
                                 <artifactItem>
                                     <groupId>org.finos.legend.engine</groupId>
